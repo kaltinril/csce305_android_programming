@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Unit 17: Ending and New Consonants</string>
+    <string name="topic1_title">Topic 1: The Silent Symbol</string>
+    <string name="topic1_opening">
+    \t    The Thai language includes a symbol which indicates a silent letter.
+        In addition to those situations where a letter is silent according to the rules of spelling, there are “accidentals” where a letter is part of the correct spelling, but the correct spelling also includes the mark which lets you know that the letter is not pronounced.
+        Thai preserves historic spellings, even if the letters are no longer pronounced.  This symbol is being introduced in the same set of notes where the new consonants are introduced.  Some of the example words with the new consonants will contain silent letters.
+        \n\n\n
+        See symbol below. The accent goes above the letter.
+    </string>
+    <string name="topic1_symbol"> ์</string>
+    <string name="main_topic2_dead_endings_title"> -- Dead Endings</string>
+    <string name="main_topic2_live_endings_title"> -- Live Endings</string>
+    <string name="main_topic2_examples_title"> -- Example Words</string>
+    <string name="topic2_title">Topic 2: Ending Consonants</string>
+    <string name="topic2_opening">
+        <![CDATA[
+        \t Recall that the formation of syllables in Thai was explained in terms of no endings, dead endings, and live endings.
+        The dead endings were ก, บ and ด.  There were several live endings, but for the purposes of this topic, we only need to recall one of them, น.
+        Most syllables that have endings will have one of the dead or live endings already covered.  It turns out that some of the other consonants can also be placed at the end of syllables.
+        When these other consonants are put at the end of syllables, they follow the rules for dead and live endings already given.
+        \n\n\t
+        These other consonants match up with one of the letters which is a dead or live ending.  If a syllable ends with one of these other consonants, that consonant takes on the sound of the dead or live ending that matches with.  The tone rule that applies to the syllable is the tone rule that goes with that dead or live ending.  Pronouncing words with alternative syllable endings is not difficult.  The difficulty consists of remembering which words are spelled with the alternative ending.
+        ]]>
+    </string>
+    <string name="topic2_dead_endings"><![CDATA[
+    The following list shows the letters that can be used as alternative syllable endings, along with the dead ending that they are equivalent to.
+    \n\n
+        ข -> ก	\t\t\t\t	ป -> บ	\t\t\t\t	ต -> ด	\t\t\t\t	ส -> ด \n
+        ค -> ก	\t\t\t\t	พ -> บ	\t\t\t\t	ท -> ด	\t\t\t\t	ซ -> ด \n
+\t\t\t\t\t\t\t\t\t\t\t\t  ฟ -> บ	\t\t\t\t	ถ -> ด	\t\t\t\t	จ -> ด \n
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t      ช -> ด
+
+        ]]>
+    </string>
+    <string name="topic2_live_endings"><![CDATA[
+    The following list shows the letters that can be used as alternative syllable endings, along with the live ending that they are equivalent to.
+    \n\n
+\t  ร -> น
+\n
+\t ล -> น
+    ]]></string>
+</resources>
