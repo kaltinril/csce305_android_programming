@@ -9,6 +9,10 @@
         See symbol below. The accent goes above the letter.
     </string>
     <string name="topic1_symbol"> ์</string>
+    <string name="topic1_example_opening">\t Here is a word with the double ร which also has the silent sign at the end. \n\n</string>
+    <string name="topic1_heaven_thai">สวรรค์</string>
+    <string name="topic1_heaven_english">heaven, paradise</string>
+    <string name="topic1_audio_ref_num">Rec17-1</string>
     <string name="main_topic2_dead_endings_title"> -- Dead Endings</string>
     <string name="main_topic2_live_endings_title"> -- Live Endings</string>
     <string name="main_topic2_examples_title"> -- Example Words</string>
@@ -40,4 +44,15 @@
 \n
 \t ล -> น
     ]]></string>
+    <string name="topic3_title">Topic 3: Overview of New Consonants</string>
+    <string name="topic3_opening"><![CDATA[
+\t
+        There are 14 additional consonants in the Thai alphabet.  The new consonants match with existing consonants.  When the new consonants appear at the beginning of a syllable, they have the same value—mid, high, or low—as the consonant they match with.  And when the new consonants appear at the end of a syllable, they will be pronounced like one of the existing endings, dead or live—and they simply are a dead or live ending, depending on how they are pronounced.  So the general idea is this:  The new consonants fit into the scheme for pronunciation and tone rules that has been established for the consonants which have been presented already.
+\n\n\t
+        The brief explanation for the existence of the duplicate consonants in Thai is that the written language preserves historic spellings.  In the past, these letters may have had distinct pronunciations, but the modern spoken language does not preserve historic pronunciations.  Even though Thai spelling is highly phonetic in general, this aspect of the language is reminiscent of English spelling.  There are silent letters; there are spelling which reflect an old pronunciation; the spelling of words reflects their source or etymology; and so on.  The good news is that you don’t have to learn any new sounds.  However, in order to read, write, and speak correctly, you need to know learn the new letters, remember which words are spelled with them, and keep in mind how they are pronounced.
+        ]]></string>
+    <string name="topic4_title">Topic 4: Chart of New Consonants</string>
+    <string name="topic4_opening">
+     \t   This topic presents all of the new consonants in the form of a chart.  The chart presents all 14 new consonants in order; the sound they take on at the beginning of a syllable (and whether or not that means they are mid, high, or low); and the sound they take on at the end of a syllable (and whether or not that means they are dead or live).  There is a pattern to how the letters appear in the charts and the relationship between their sounds at the beginning and end of a syllable.  The chart is annotated to bring out the pattern.
+    </string>
 </resources>

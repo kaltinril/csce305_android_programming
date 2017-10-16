@@ -69,13 +69,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="left|center_vertical"
-            android:text="Topic 3: Overview of New Consonants" />
+            android:text="@string/topic3_title"
+            android:onClick="topic3Click"/>
 
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="left|center_vertical"
-            android:text="Topic 4: Chart of New Consonants" />
+            android:text="@string/topic4_title" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

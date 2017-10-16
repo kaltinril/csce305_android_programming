@@ -25,8 +25,12 @@
         <activity
             android:name=".Topic2LiveEndings"
             android:label="@string/main_topic2_live_endings_title" />
-        <activity android:name=".Topic1"
-            android:label="@string/topic1_title"></activity>
+        <activity
+            android:name=".Topic1"
+            android:label="@string/topic1_title" />
+        <activity android:name=".Topic3" />
+        <activity android:name=".Topic4" />
+        <activity android:name=".Topic1SilentSymbolExample"></activity>
     </application>
 
 </manifest>

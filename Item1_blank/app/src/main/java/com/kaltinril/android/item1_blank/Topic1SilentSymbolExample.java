@@ -5,12 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class Topic1 extends AppCompatActivity {
+public class Topic1SilentSymbolExample extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_topic1);
+        setContentView(R.layout.activity_silent_symbol_example);
     }
 
     public void overviewClick(View view){
@@ -20,8 +20,12 @@ public class Topic1 extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void exampleClick(View view){
-        Intent i = new Intent(this, Topic1SilentSymbolExample.class);
+    public void topic2Click(View view){
+        Intent i = new Intent(this, Topic2.class);
         startActivity(i);
+
+        // Needed a way to change between topics so that the back button would go back to the main list of topics
+        // works if we are on the main topic but not if we are a few layers down
+        finish(); // Causes this to be destroyed and removed from the Activity stack after calling startActivity.
     }
 }

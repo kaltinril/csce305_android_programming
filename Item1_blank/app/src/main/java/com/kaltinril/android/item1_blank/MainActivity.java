@@ -32,4 +32,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, Topic2LiveEndings.class);
         startActivity(i);
     }
+
+    public void topic3Click(View view){
+        Intent intent = new Intent(this, Topic3.class);
+        startActivity(intent);
+    }
 }
