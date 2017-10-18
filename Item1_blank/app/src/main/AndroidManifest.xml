@@ -28,9 +28,14 @@
         <activity
             android:name=".Topic1"
             android:label="@string/topic1_title" />
-        <activity android:name=".Topic3" />
-        <activity android:name=".Topic4" />
-        <activity android:name=".Topic1SilentSymbolExample"></activity>
+        <activity android:name=".Topic3"
+            android:label="@string/topic3_title" />
+        <activity android:name=".Topic4"
+            android:label="@string/topic4_title" />
+        <activity android:name=".Topic1SilentSymbolExample"
+            android:label="@string/topic1_silent_title" />
+        <activity android:name=".Topic2Examples"
+            android:label="@string/main_topic2_examples_title" ></activity>
     </application>
 
 </manifest>

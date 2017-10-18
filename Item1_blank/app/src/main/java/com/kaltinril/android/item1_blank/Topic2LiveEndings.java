@@ -19,4 +19,9 @@ public class Topic2LiveEndings extends AppCompatActivity {
         i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(i);
     }
+
+    public void examplesClick(View view){
+        Intent i = new Intent(this, Topic2Examples.class);
+        startActivity(i);
+    }
 }

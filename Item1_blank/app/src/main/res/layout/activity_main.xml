@@ -34,6 +34,14 @@
             android:text="@string/topic1_title" />
 
         <Button
+            android:id="@+id/btn_t1st"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:onClick="topic1SilentSymbolClick"
+            android:text="@string/topic1_silent_title" />
+
+        <Button
             android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -62,7 +70,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="left|center_vertical"
-            android:text="@string/main_topic2_examples_title" />
+            android:text="@string/main_topic2_examples_title"
+            android:onClick="exampleClick"/>
 
         <Button
             android:id="@+id/button3"
@@ -77,6 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="left|center_vertical"
-            android:text="@string/topic4_title" />
+            android:text="@string/topic4_title"
+            android:onClick="topic4Click"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

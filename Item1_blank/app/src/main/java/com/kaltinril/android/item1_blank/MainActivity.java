@@ -18,6 +18,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void topic1SilentSymbolClick(View view){
+        Intent intent = new Intent(this, Topic1SilentSymbolExample.class);
+        startActivity(intent);
+    }
+
     public void topic2Click(View view){
         Intent intent = new Intent(this, Topic2.class);
         startActivity(intent);
@@ -33,8 +38,18 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void exampleClick(View view){
+        Intent intent = new Intent(this, Topic2Examples.class);
+        startActivity(intent);
+    }
+
     public void topic3Click(View view){
         Intent intent = new Intent(this, Topic3.class);
+        startActivity(intent);
+    }
+
+    public void topic4Click(View view){
+        Intent intent = new Intent(this, Topic4.class);
         startActivity(intent);
     }
 }
