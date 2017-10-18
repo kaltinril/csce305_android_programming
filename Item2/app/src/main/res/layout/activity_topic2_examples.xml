@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kaltinril.android.item2.Topic2Examples">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/topic2_examples_opening" />
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="376dp"
+            android:layout_weight="0.90">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tb_t2example_thai1"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="TEMP"
+                    android:textSize="27dp" />
+
+                <TextView
+                    android:id="@+id/tb_t2example_eng1"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic1_heaven_english"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/tb_t2example_ref1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic1_audio_ref_num"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/tb_t2example_snd1"
+                    android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:text="Play" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/tb_t2example_thai2"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="@string/topic1_heaven_thai"
+                    android:textSize="27dp" />
+
+                <TextView
+                    android:id="@+id/tb_t2example_eng2"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic1_heaven_english"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/tb_t2example_ref2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic1_audio_ref_num"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/tb_t2example_snd2"
+                    android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:text="Play" />
+
+                </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/tb_t2example_thai3"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="@string/topic1_heaven_thai"
+                    android:textSize="27dp" />
+
+                <TextView
+                    android:id="@+id/tb_t2example_eng3"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic1_heaven_english"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/tb_t2example_ref3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic1_audio_ref_num"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/tb_t2example_snd3"
+                    android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:text="Play" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/tb_t2example_thai4"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="@string/topic1_heaven_thai"
+                    android:textSize="27dp" />
+
+                <TextView
+                    android:id="@+id/tb_t2example_eng4"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic1_heaven_english"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/tb_t2example_ref4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic1_audio_ref_num"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/tb_t2example_snd4"
+                    android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:text="Play" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/tb_t2example_thai5"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="@string/topic1_heaven_thai"
+                    android:textSize="27dp" />
+
+                <TextView
+                    android:id="@+id/tb_t2example_eng5"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic1_heaven_english"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/tb_t2example_ref5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic1_audio_ref_num"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/tb_t2example_snd5"
+                    android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:text="Play" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/tb_t2example_thai6"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="@string/topic1_heaven_thai"
+                    android:textSize="27dp" />
+
+                <TextView
+                    android:id="@+id/tb_t2example_eng6"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic1_heaven_english"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/tb_t2example_ref6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic1_audio_ref_num"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/tb_t2example_snd6"
+                    android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:text="Play" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/tb_t2example_thai7"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="@string/topic1_heaven_thai"
+                    android:textSize="27dp" />
+
+                <TextView
+                    android:id="@+id/tb_t2example_eng7"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic1_heaven_english"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/tb_t2example_ref7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic1_audio_ref_num"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/tb_t2example_snd7"
+                    android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:text="Play" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/tb_t2example_thai8"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="@string/topic1_heaven_thai"
+                    android:textSize="27dp" />
+
+                <TextView
+                    android:id="@+id/tb_t2example_eng8"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic1_heaven_english"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/tb_t2example_ref8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic1_audio_ref_num"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/tb_t2example_snd8"
+                    android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:text="Play" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/tb_t2example_thai9"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="@string/topic1_heaven_thai"
+                    android:textSize="27dp" />
+
+                <TextView
+                    android:id="@+id/tb_t2example_eng9"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic1_heaven_english"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/tb_t2example_ref9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic1_audio_ref_num"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/tb_t2example_snd9"
+                    android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:text="Play" />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/t1_overview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Unit 17 Overview"
+                android:onClick="overviewClick"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

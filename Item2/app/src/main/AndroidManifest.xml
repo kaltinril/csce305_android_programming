@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kaltinril.android.item2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.kaltinril.android.item2.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kaltinril.android.item2.Topic2"
+            android:label="@string/topic2_title" />
+        <activity
+            android:name="com.kaltinril.android.item2.Topic2DeadEndings"
+            android:label="@string/main_topic2_dead_endings_title" />
+        <activity
+            android:name="com.kaltinril.android.item2.Topic2LiveEndings"
+            android:label="@string/main_topic2_live_endings_title" />
+        <activity
+            android:name="com.kaltinril.android.item2.Topic1"
+            android:label="@string/topic1_title" />
+        <activity android:name="com.kaltinril.android.item2.Topic3"
+            android:label="@string/topic3_title" />
+        <activity android:name="com.kaltinril.android.item2.Topic4"
+            android:label="@string/topic4_title" />
+        <activity android:name="com.kaltinril.android.item2.Topic1SilentSymbolExample"
+            android:label="@string/topic1_silent_title" />
+        <activity android:name="com.kaltinril.android.item2.Topic2Examples"
+            android:label="@string/main_topic2_examples_title" ></activity>
+    </application>
+
+</manifest>
