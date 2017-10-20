@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.kaltinril.android.item2.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,25 +17,31 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.kaltinril.android.item2.Topic2"
+            android:name=".Topic2"
             android:label="@string/topic2_title" />
         <activity
-            android:name="com.kaltinril.android.item2.Topic2DeadEndings"
+            android:name=".Topic2DeadEndings"
             android:label="@string/main_topic2_dead_endings_title" />
         <activity
-            android:name="com.kaltinril.android.item2.Topic2LiveEndings"
+            android:name=".Topic2LiveEndings"
             android:label="@string/main_topic2_live_endings_title" />
         <activity
-            android:name="com.kaltinril.android.item2.Topic1"
+            android:name=".Topic1"
             android:label="@string/topic1_title" />
-        <activity android:name="com.kaltinril.android.item2.Topic3"
+        <activity
+            android:name=".Topic3"
             android:label="@string/topic3_title" />
-        <activity android:name="com.kaltinril.android.item2.Topic4"
+        <activity
+            android:name=".Topic4"
             android:label="@string/topic4_title" />
-        <activity android:name="com.kaltinril.android.item2.Topic1SilentSymbolExample"
+        <activity
+            android:name=".Topic1SilentSymbolExample"
             android:label="@string/topic1_silent_title" />
-        <activity android:name="com.kaltinril.android.item2.Topic2Examples"
-            android:label="@string/main_topic2_examples_title" ></activity>
+        <activity
+            android:name=".Topic2Examples"
+            android:label="@string/main_topic2_examples_title" />
+        <activity android:name=".Topic4Chart"
+            android:label="@string/topic4_chart_title"></activity>
     </application>
 
 </manifest>

@@ -106,4 +106,22 @@
     <string name="topic4_opening">
      \t   This topic presents all of the new consonants in the form of a chart.  The chart presents all 14 new consonants in order; the sound they take on at the beginning of a syllable (and whether or not that means they are mid, high, or low); and the sound they take on at the end of a syllable (and whether or not that means they are dead or live).  There is a pattern to how the letters appear in the charts and the relationship between their sounds at the beginning and end of a syllable.  The chart is annotated to bring out the pattern.
     </string>
+    <string name="topic4_chart_title"> - T4 - Chart</string>
+    <string-array name="topic4_chart">
+        <item>English||Thai||Low/Mid/High||Dead/Live</item>
+        <item>d, t||ฎ||ด (mid)||ด (dead)</item>
+        <item>d, t||ฏ||ต (mid)||ด (dead)</item>
+        <item>s||ศ||ส (high)||ด (dead)</item>
+        <item>s||ษ||ส (high)||ด (dead)</item>
+        <item>k||ฐ||ถ (high)||ด (dead)</item>
+        <item>k||ฆ||ค (low)||ก (dead)</item>
+        <item>ch||ฌ||ช (low)||ด (dead)</item>
+        <item>p||ภ||พ (low)||บ (dead)</item>
+        <item>t||ธ||ท (low)||ด (dead)</item>
+        <item>t||ฒ||ท (low)||ด (dead)</item>
+        <item>t||ฑ||ท (low)||ด (dead)</item>
+        <item>y, n, l||ญ||ย (low)||น (live)</item>
+        <item>y, n, l||ณ||น (low)||น (live)</item>
+        <item>y, n, l||ฬ||ล (low)||น (live)</item>
+    </string-array>
 </resources>

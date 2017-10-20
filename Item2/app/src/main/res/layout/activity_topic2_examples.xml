@@ -348,6 +348,14 @@
                 android:text="Unit 17 Overview"
                 android:onClick="overviewClick"/>
 
+            <Button
+                android:id="@+id/t2le_example_words"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Topic 3"
+                android:onClick="topic3Click"/>
+
         </LinearLayout>
 
     </LinearLayout>

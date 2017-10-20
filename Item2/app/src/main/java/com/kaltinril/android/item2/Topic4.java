@@ -19,4 +19,9 @@ public class Topic4 extends AppCompatActivity {
         i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(i);
     }
+
+    public void chartsClick(View view){
+        Intent i = new Intent(this, Topic4Chart.class);
+        startActivity(i);
+    }
 }

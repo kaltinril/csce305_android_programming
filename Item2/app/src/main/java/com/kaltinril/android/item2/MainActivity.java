@@ -52,4 +52,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Topic4.class);
         startActivity(intent);
     }
+
+    public void topic4ChartClick(View view){
+        Intent intent = new Intent(this, Topic4Chart.class);
+        startActivity(intent);
+    }
 }

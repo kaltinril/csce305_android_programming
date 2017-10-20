@@ -93,4 +93,10 @@ public class Topic2Examples extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void topic3Click(View view){
+        Intent i = new Intent(this, Topic3.class);
+        startActivity(i);
+        finish();
+    }
+
 }
