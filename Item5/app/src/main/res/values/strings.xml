@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">Unit17 - Item 5</string>
+    <string name="topic1_title">Topic 1: The Silent Symbol</string>
+    <string name="topic1_opening">
+    \t    The Thai language includes a symbol which indicates a silent letter.
+        In addition to those situations where a letter is silent according to the rules of spelling, there are “accidentals” where a letter is part of the correct spelling, but the correct spelling also includes the mark which lets you know that the letter is not pronounced.
+        Thai preserves historic spellings, even if the letters are no longer pronounced.  This symbol is being introduced in the same set of notes where the new consonants are introduced.  Some of the example words with the new consonants will contain silent letters.
+        \n\n\n
+        See symbol below. The accent goes above the letter.
+    </string>
+    <string name="topic1_symbol"> ์</string>
+    <string name="topic1_example_opening">\t Here is a word with the double ร which also has the silent sign at the end. \n\n</string>
+    <string name="topic1_heaven_thai">สวรรค์</string>
+    <string name="topic1_heaven_english">heaven, paradise</string>
+    <string name="topic1_audio_ref_num">Rec17-1</string>
+    <string name="topic1_silent_title"> - T1 - Silent Symbol Example</string>
+    <string name="main_topic2_dead_endings_title"> - T2 - Dead Endings</string>
+    <string name="main_topic2_live_endings_title"> - T2 - Live Endings</string>
+    <string name="main_topic2_examples_title"> - T2 - Example Words</string>
+    <string name="topic2_title">Topic 2: Ending Consonants</string>
+    <string name="topic2_opening">
+        <![CDATA[
+        \t Recall that the formation of syllables in Thai was explained in terms of no endings, dead endings, and live endings.
+        The dead endings were ก, บ and ด.  There were several live endings, but for the purposes of this topic, we only need to recall one of them, น.
+        Most syllables that have endings will have one of the dead or live endings already covered.  It turns out that some of the other consonants can also be placed at the end of syllables.
+        When these other consonants are put at the end of syllables, they follow the rules for dead and live endings already given.
+        \n\n\t
+        These other consonants match up with one of the letters which is a dead or live ending.  If a syllable ends with one of these other consonants, that consonant takes on the sound of the dead or live ending that matches with.  The tone rule that applies to the syllable is the tone rule that goes with that dead or live ending.  Pronouncing words with alternative syllable endings is not difficult.  The difficulty consists of remembering which words are spelled with the alternative ending.
+        ]]>
+    </string>
+    <string name="topic2_dead_endings"><![CDATA[
+    \t The following list shows the letters that can be used as alternative syllable endings, along with the dead ending that they are equivalent to.
+    \n\n
+        ข -> ก	\t\t\t\t	ป -> บ	\t\t\t\t	ต -> ด	\t\t\t\t	ส -> ด \n
+        ค -> ก	\t\t\t\t	พ -> บ	\t\t\t\t	ท -> ด	\t\t\t\t	ซ -> ด \n
+\t\t\t\t\t\t\t\t\t\t\t\t  ฟ -> บ	\t\t\t\t	ถ -> ด	\t\t\t\t	จ -> ด \n
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t      ช -> ด
+
+        ]]>
+    </string>
+    <string name="topic2_live_endings"><![CDATA[
+    \t The following list shows the letters that can be used as alternative syllable endings, along with the live ending that they are equivalent to.
+    \n\n
+\t  ร -> น
+\n
+\t ล -> น
+    ]]></string>
+    <string name="topic2_examples_opening">\t Here are some example words illustrating the idea.  It is not an exhaustive list illustrating each letter given above:</string>
+
+    <string-array name="topic2_examples_array_thai">
+        <item>ความสุข</item> <!-- happiness, pleasure  -->
+        <item>รูป</item> <!-- photograph, picture -->
+        <item>บาท</item> <!-- baht (Thai Currency) -->
+        <item>สวัส ดี</item> <!-- hello, good-bye, greetings -->
+        <item>เสร็จ</item> <!-- to finish, finished (notice that the ร is silent) -->
+        <item>อาจจะ</item> <!-- maybe, perhaps -->
+        <item>อิจฉา</item> <!-- jealous, envious -->
+        <item>อาหาร</item> <!-- food -->
+        <item>พยาบาล</item> <!-- nurse -->
+    </string-array>
+
+    <string-array name="topic2_examples_array_english">
+        <item>happiness, pleasure</item>
+        <item>photograph, picture</item>
+        <item>baht (Thai Currency)</item>
+        <item>hello, good-bye, greetings</item>
+        <item>to finish, finished (silent ร)</item>
+        <item>maybe, perhaps</item>
+        <item>jealous, envious</item>
+        <item>food</item>
+        <item>nurse</item>
+    </string-array>
+
+    <string-array name="topic2_examples_array_ref">
+        <item>Rec17-2</item>
+        <item>Rec17-3</item>
+        <item>Rec17-4</item>
+        <item>Rec17-5</item>
+        <item>Rec17-6</item>
+        <item>Rec17-7</item>
+        <item>Rec17-8</item>
+        <item>Rec17-9</item>
+        <item>Rec17-10</item>
+    </string-array>
+
+    <string-array name="topic2_examples_array_sounds">
+        <item>rec17_2</item>
+        <item>rec17_3</item>
+        <item>rec17_4</item>
+        <item>rec17_5</item>
+        <item>rec17_6</item>
+        <item>rec17_7</item>
+        <item>rec17_8</item>
+        <item>rec17_9</item>
+        <item>rec17_10</item>
+    </string-array>
+
+    <string name="topic3_title">Topic 3: Overview of New Consonants</string>
+    <string name="topic3_opening"><![CDATA[
+\t
+        There are 14 additional consonants in the Thai alphabet.  The new consonants match with existing consonants.  When the new consonants appear at the beginning of a syllable, they have the same value—mid, high, or low—as the consonant they match with.  And when the new consonants appear at the end of a syllable, they will be pronounced like one of the existing endings, dead or live—and they simply are a dead or live ending, depending on how they are pronounced.  So the general idea is this:  The new consonants fit into the scheme for pronunciation and tone rules that has been established for the consonants which have been presented already.
+\n\n\t
+        The brief explanation for the existence of the duplicate consonants in Thai is that the written language preserves historic spellings.  In the past, these letters may have had distinct pronunciations, but the modern spoken language does not preserve historic pronunciations.  Even though Thai spelling is highly phonetic in general, this aspect of the language is reminiscent of English spelling.  There are silent letters; there are spelling which reflect an old pronunciation; the spelling of words reflects their source or etymology; and so on.  The good news is that you don’t have to learn any new sounds.  However, in order to read, write, and speak correctly, you need to know learn the new letters, remember which words are spelled with them, and keep in mind how they are pronounced.
+        ]]></string>
+    <string name="topic4_title">Topic 4: Chart of New Consonants</string>
+    <string name="topic4_opening">
+     \t   This topic presents all of the new consonants in the form of a chart.  The chart presents all 14 new consonants in order; the sound they take on at the beginning of a syllable (and whether or not that means they are mid, high, or low); and the sound they take on at the end of a syllable (and whether or not that means they are dead or live).  There is a pattern to how the letters appear in the charts and the relationship between their sounds at the beginning and end of a syllable.  The chart is annotated to bring out the pattern.
+    </string>
+    <string name="topic4_chart_title"> - T4 - Chart</string>
+    <string-array name="topic4_chart">
+        <item>English||Thai||Low/Mid/High||Dead/Live</item>
+        <item>d, t||ฎ||ด (mid)||ด (dead)</item>
+        <item>d, t||ฏ||ต (mid)||ด (dead)</item>
+        <item>s||ศ||ส (high)||ด (dead)</item>
+        <item>s||ษ||ส (high)||ด (dead)</item>
+        <item>k||ฐ||ถ (high)||ด (dead)</item>
+        <item>k||ฆ||ค (low)||ก (dead)</item>
+        <item>ch||ฌ||ช (low)||ด (dead)</item>
+        <item>p||ภ||พ (low)||บ (dead)</item>
+        <item>t||ธ||ท (low)||ด (dead)</item>
+        <item>t||ฒ||ท (low)||ด (dead)</item>
+        <item>t||ฑ||ท (low)||ด (dead)</item>
+        <item>y, n, l||ญ||ย (low)||น (live)</item>
+        <item>y, n, l||ณ||น (low)||น (live)</item>
+        <item>y, n, l||ฬ||ล (low)||น (live)</item>
+    </string-array>
+</resources>
