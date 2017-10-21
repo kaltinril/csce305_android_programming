@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#ff362f</color>
-    <color name="colorPrimaryDark">#a13b37</color>
-    <color name="colorAccent">#0e1e6e</color>
+    <color name="colorPrimarySunday">#ff362f</color>
+    <color name="colorPrimaryDarkSunday">#a13b37</color>
+    <color name="colorAccentSunday">#6e260e</color>
+
+    <color name="colorPrimaryMonday">#ffff5b</color>
+    <color name="colorPrimaryDarkMonday">#a39200</color>
+    <color name="colorAccentMonday">#e1dd7a</color>
+
+    <color name="colorPrimaryTuesday">#ff6ec0</color>
+    <color name="colorPrimaryDarkTuesday">#8c3060</color>
+    <color name="colorAccentTuesday">#9e6f96</color>
+
+    <color name="colorPrimaryWednesday">#43ca41</color>
+    <color name="colorPrimaryDarkWednesday">#007004</color>
+    <color name="colorAccentWednesday">#478947</color>
+
+    <color name="colorPrimaryThursday">#ed9b49</color>
+    <color name="colorPrimaryDarkThursday">#663001</color>
+    <color name="colorAccentThursday">#6e260e</color>
+
+    <color name="colorPrimaryFriday">#9cc2ff</color>
+    <color name="colorPrimaryDarkFriday">#7b97ff</color>
+    <color name="colorAccentFriday">#b991ff</color>
+
+    <color name="colorPrimarySaturday">#9465ff</color>
+    <color name="colorPrimaryDarkSaturday">#5e0cc2</color>
+    <color name="colorAccentSaturday">#605389</color>
+
 </resources>

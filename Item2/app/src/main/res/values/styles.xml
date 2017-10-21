@@ -1,11 +1,43 @@
 <resources>
 
+    <style name="AppTheme_Sunday" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimarySunday</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkSunday</item>
+        <item name="colorAccent">@color/colorAccentSunday</item>
+    </style>
+    <style name="AppTheme_Monday" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryMonday</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkMonday</item>
+        <item name="colorAccent">@color/colorAccentMonday</item>
+    </style>
+    <style name="AppTheme_Tuesday" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryTuesday</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkTuesday</item>
+        <item name="colorAccent">@color/colorAccentTuesday</item>
+    </style>
+    <style name="AppTheme_Wednesday" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryWednesday</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkWednesday</item>
+        <item name="colorAccent">@color/colorAccentWednesday</item>
+    </style>
+    <style name="AppTheme_Thursday" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryThursday</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkThursday</item>
+        <item name="colorAccent">@color/colorAccentThursday</item>
+    </style>
+
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme_Friday" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimaryFriday</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkFriday</item>
+        <item name="colorAccent">@color/colorAccentFriday</item>
+    </style>
+
+    <style name="AppTheme_Saturday" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimarySaturday</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkSaturday</item>
+        <item name="colorAccent">@color/colorAccentSaturday</item>
     </style>
 
 </resources>
