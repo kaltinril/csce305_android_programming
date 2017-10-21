@@ -1,5 +1,6 @@
 <resources>
-
+    <!-- Theme colors use the Thai lucky color for the day -->
+    <!-- https://en.wikipedia.org/wiki/Colors_of_the_day_in_Thailand -->
     <style name="AppTheme_Sunday" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/colorPrimarySunday</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDarkSunday</item>
@@ -26,7 +27,7 @@
         <item name="colorAccent">@color/colorAccentThursday</item>
     </style>
 
-    <!-- Base application theme. -->
+
     <style name="AppTheme_Friday" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimaryFriday</item>
