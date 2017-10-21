@@ -11,7 +11,9 @@
     <string name="topic1_symbol"> ์</string>
     <string name="topic1_example_opening">\t Here is a word with the double ร which also has the silent sign at the end. \n\n</string>
     <string name="topic1_heaven_thai">สวรรค์</string>
+    <string name="topic1_heaven_pronounce">สะ _ หวัน</string>
     <string name="topic1_heaven_english">heaven, paradise</string>
+    <string name="topic1_example_description">The symbol over the letter ค is the silent mark.  This tells you that the ค is not pronounced.</string>
     <string name="topic1_audio_ref_num">Rec17-1</string>
     <string name="topic1_silent_title"> - T1 - Silent Symbol Example</string>
     <string name="main_topic2_dead_endings_title"> - T2 - Dead Endings</string>
