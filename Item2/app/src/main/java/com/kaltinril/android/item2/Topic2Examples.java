@@ -1,19 +1,28 @@
 package com.kaltinril.android.item2;
 
+import android.app.Dialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.graphics.drawable.ColorDrawable;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.TableRow;
 import android.widget.TextView;
 
 public class Topic2Examples extends AppCompatActivity {
 
     // Store these so that we don't have to re-load them all the time
     MediaPlayer mp;
-    Button soundButtons[] ;
+    Button soundButtons[];
+    String[] sound_names;       // Need these for the button to load the correct image
+    Dialog imageDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +33,7 @@ public class Topic2Examples extends AppCompatActivity {
         String[] thai_words = res.getStringArray(R.array.topic2_examples_array_thai);
         String[] english_words = res.getStringArray(R.array.topic2_examples_array_english);
         String[] ref_nums = res.getStringArray(R.array.topic2_examples_array_ref);
-        String[] sound_names = res.getStringArray(R.array.topic2_examples_array_sounds);
+        sound_names = res.getStringArray(R.array.topic2_examples_array_sounds);
 
         // ASSUME (Dangerous!) that we have the same number of each item
         // Loop over eawch word adding i to an existing button
@@ -74,6 +83,7 @@ public class Topic2Examples extends AppCompatActivity {
             });
 
         }
+
     }
 
     // Make sure we clean up the media player on destroy.
@@ -97,6 +107,62 @@ public class Topic2Examples extends AppCompatActivity {
         Intent i = new Intent(this, Topic3.class);
         startActivity(i);
         finish();
+    }
+
+    // These methods are a simple way to do this
+    // Shoud look at adding an onClickListener instead that uses the TAG to pass it
+    public void row1Click(View view){
+        showDialog(sound_names[0]);
+    }
+
+    public void row2Click(View view){
+        showDialog(sound_names[1]);
+    }
+
+    public void row3Click(View view){
+        showDialog(sound_names[2]);
+    }
+
+    public void row4Click(View view){
+        showDialog(sound_names[3]);
+    }
+
+    public void row5Click(View view){
+        showDialog(sound_names[4]);
+    }
+
+    public void row6Click(View view){
+        showDialog(sound_names[5]);
+    }
+
+    public void row7Click(View view){
+        showDialog(sound_names[6]);
+    }
+
+    public void row8Click(View view){
+        showDialog(sound_names[7]);
+    }
+
+    public void row9Click(View view){
+        showDialog(sound_names[8]);
+    }
+
+    private void showDialog(String imageName){
+        imageDialog = new Dialog(this);
+        imageDialog.getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+        imageDialog.setContentView(getLayoutInflater().inflate(R.layout.dialog_image_layout, null));
+
+        // Change the image
+        ImageView iv = (ImageView)imageDialog.findViewById(R.id.imageViewDialog);
+        int image_identifier = getResources().getIdentifier(imageName, "drawable", getPackageName());
+        iv.setImageResource(image_identifier);
+
+        // Show the dialog
+        imageDialog.show();
+    }
+
+    public void dismissListener(View view){
+        imageDialog.dismiss();
     }
 
 }

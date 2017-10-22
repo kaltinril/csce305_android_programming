@@ -28,7 +28,9 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:onClick="row1Click"
+                >
 
                 <TextView
                     android:id="@+id/tb_t2example_thai1"
@@ -62,7 +64,8 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent"
+                android:onClick="row2Click">
 
                 <TextView
                     android:id="@+id/tb_t2example_thai2"
@@ -96,7 +99,8 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent"
+                android:onClick="row3Click">
 
                 <TextView
                     android:id="@+id/tb_t2example_thai3"
@@ -130,7 +134,8 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent"
+                android:onClick="row4Click">
 
                 <TextView
                     android:id="@+id/tb_t2example_thai4"
@@ -164,7 +169,8 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent"
+                android:onClick="row5Click">
 
                 <TextView
                     android:id="@+id/tb_t2example_thai5"
@@ -198,7 +204,8 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent"
+                android:onClick="row6Click">
 
                 <TextView
                     android:id="@+id/tb_t2example_thai6"
@@ -232,7 +239,8 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent"
+                android:onClick="row7Click">
 
                 <TextView
                     android:id="@+id/tb_t2example_thai7"
@@ -266,7 +274,8 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent"
+                android:onClick="row8Click">
 
                 <TextView
                     android:id="@+id/tb_t2example_thai8"
@@ -300,7 +309,8 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent"
+                android:onClick="row9Click">
 
                 <TextView
                     android:id="@+id/tb_t2example_thai9"
