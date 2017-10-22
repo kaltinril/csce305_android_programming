@@ -10,18 +10,23 @@ public class Topic2DeadEndings extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        // Pick the theme based on the day of the week so we always use the "lucky" color for thai
+        int theme = MainActivity.generateTheme();
+        setTheme(theme);
+
         setContentView(R.layout.activity_topic2_dead_endings);
     }
 
     public void overviewClick(View view){
-        Intent i = new Intent(this, MainActivity.class);
-        // set the new task and clear flags
-        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        Intent i = new Intent(this, Unit17Overview.class);
         startActivity(i);
+        finish();
     }
 
     public void liveEndingsClick(View view){
         Intent i = new Intent(this, Topic2LiveEndings.class);
         startActivity(i);
+        finish();
     }
 }

@@ -10,19 +10,23 @@ public class Topic2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_topic2);
 
+        // Pick the theme based on the day of the week so we always use the "lucky" color for thai
+        int theme = MainActivity.generateTheme();
+        setTheme(theme);
+
+        setContentView(R.layout.activity_topic2);
     }
 
     public void overviewClick(View view){
-        Intent i = new Intent(this, MainActivity.class);
-        // set the new task and clear flags
-        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        Intent i = new Intent(this, Unit17Overview.class);
         startActivity(i);
+        finish();
     }
 
     public void deadEndingsClick(View view){
         Intent i = new Intent(this, Topic2DeadEndings.class);
         startActivity(i);
+        finish();
     }
 }
