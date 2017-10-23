@@ -1,6 +1,11 @@
 <resources>
-    <string name="app_name">Unit 17: Ending and New Consonants</string>
+    <string name="app_name">Thai_Book</string>
+    <string name="unit17_title">Unit 17: Ending and New Consonants</string>
     <string name="topic1_title">Topic 1: The Silent Symbol</string>
+    <string name="flashcard1_title">Thai Flashcards</string>
+    <string name="flashcard2_title">Memory Game Flashcards</string>
+    <string name="glossary1_title">Thai to English Glossary</string>
+    <string name="glossary2_title">English to Thai Glossary</string>
     <string name="topic1_opening">
     \t    The Thai language includes a symbol which indicates a silent letter.
         In addition to those situations where a letter is silent according to the rules of spelling, there are “accidentals” where a letter is part of the correct spelling, but the correct spelling also includes the mark which lets you know that the letter is not pronounced.

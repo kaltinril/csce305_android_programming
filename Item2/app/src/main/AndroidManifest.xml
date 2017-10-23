@@ -43,11 +43,16 @@
         <activity
             android:name=".Topic4Chart"
             android:label="@string/topic4_chart_title" />
-        <activity android:name=".Unit17Overview" />
-        <activity android:name=".flashcards.BasicFlashcard" />
-        <activity android:name=".flashcards.MemoryFlashCard" />
-        <activity android:name=".glossary.ThaiEnglishGlossary" />
-        <activity android:name=".glossary.EnglishThaiGlossary"></activity>
+        <activity android:name=".Unit17Overview"
+            android:label="@string/unit17_title"/>
+        <activity android:name=".flashcards.BasicFlashcard"
+            android:label="@string/flashcard1_title"/>
+        <activity android:name=".flashcards.MemoryFlashCard"
+            android:label="@string/flashcard2_title"/>
+        <activity android:name=".glossary.ThaiEnglishGlossary"
+            android:label="@string/glossary1_title"/>
+        <activity android:name=".glossary.EnglishThaiGlossary"
+            android:label="@string/glossary2_title"></activity>
     </application>
 
 </manifest>
