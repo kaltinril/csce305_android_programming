@@ -45,7 +45,8 @@
             android:label="@string/topic4_chart_title" />
         <activity android:name=".Unit17Overview" />
         <activity android:name=".flashcards.BasicFlashcard" />
-        <activity android:name=".flashcards.MemoryFlashCard"></activity>
+        <activity android:name=".flashcards.MemoryFlashCard" />
+        <activity android:name=".glossary.ThaiEnglishGlossary"></activity>
     </application>
 
 </manifest>

@@ -141,4 +141,124 @@
 
     <string name="memory_index"></string>
     <string name="memory_text"></string>
+
+    <string-array name="glossary_combined">
+        <item>Paradise||สวรรค์</item>
+        <item>Heaven||สวรรค์</item>
+        <item>Happiness||ความสุข</item>
+        <item>Pleasure||ความสุข</item>
+        <item>Picture||รูป</item>
+        <item>Photograph||รูป</item>
+        <item>Baht||บาท</item>
+        <item>Hello||สวัส ดี</item>
+        <item>Good-Bye||สวัส ดี</item>
+        <item>Greetings||สวัส ดี</item>
+        <item>To Finish||เสร็จ</item>
+        <item>Finished||เสร็จ</item>
+        <item>Maybe||อาจจะ</item>
+        <item>Perhaps||อาจจะ</item>
+        <item>Jealous||อิจฉา</item>
+        <item>Envious||อิจฉา</item>
+        <item>Food||อาหาร</item>
+        <item>Nurse||พยาบาล</item>
+    </string-array>
+
+    <string-array name="glossary_sublist">
+        <item>Paradise
+            <item>สวรรค์</item>
+        </item>
+        <item>Heaven
+            <item>สวรรค์</item>
+        </item>
+        <item>Happiness
+            <item>ความสุข</item>
+        </item>
+        <item>Pleasure
+            <item>ความสุข</item>
+        </item>
+        <item>Picture
+            <item>รูป</item>
+        </item>
+        <item>Photograph
+            <item>รูป</item>
+        </item>
+        <item>Baht
+            <item>บาท</item>
+        </item>
+        <item>Hello
+            <item>สวัส ดี</item>
+        </item>
+        <item>Good-Bye
+            <item>สวัส ดี</item>
+        </item>
+        <item>Greetings
+            <item>สวัส ดี</item>
+        </item>
+        <item>To Finish
+            <item>เสร็จ</item>
+        </item>
+        <item>Finished
+            <item>เสร็จ</item>
+        </item>
+        <item>Maybe
+            <item>อาจจะ</item>
+        </item>
+        <item>Perhaps
+            <item>อาจจะ</item>
+        </item>
+        <item>Jealous
+            <item>อิจฉา</item>
+        </item>
+        <item>Envious
+            <item>อิจฉา</item>
+        </item>
+        <item>Food
+            <item>อาหาร</item>
+        </item>
+        <item>Nurse
+            <item>พยาบาล</item>
+        </item>
+    </string-array>
+
+    <string-array name="glossary_thai_eng_combined">
+        <item>สวรรค์
+            <item>Paradise</item>
+            <item>Heaven</item>
+        </item>
+        <item>ความสุข
+            <item>Happiness</item>
+            <item>Pleasure</item>
+        </item>
+        <item>รูป
+            <item>Picture</item>
+            <item>Photograph</item>
+        </item>
+        <item>บาท
+            <item>Baht</item>
+        </item>
+        <item>สวัส ดี
+            <item>Hello</item>
+            <item>Good-Bye</item>
+            <item>Greetings</item>
+        </item>
+        <item>เสร็จ
+            <item>To Finish</item>
+            <item>Finished</item>
+        </item>
+        <item>อาจจะ
+            <item>Maybe</item>
+            <item>Perhaps</item>
+        </item>
+        <item>อิจฉา
+            <item>Jealous</item>
+            <item>Envious</item>
+        </item>
+        <item>อาหาร
+            <item>Food</item>
+        </item>
+        <item>พยาบาล
+            <item>Nurse</item>
+        </item>
+    </string-array>
+
 </resources>

@@ -116,7 +116,8 @@
                     android:layout_height="100dp"
                     android:adjustViewBounds="true"
                     android:scaleType="centerInside"
-                    android:src="@drawable/glossary_icon" />
+                    android:src="@drawable/glossary_icon"
+                    android:onClick="gloss1Click"/>
 
                 <ImageButton
                     android:id="@+id/imageButton4"

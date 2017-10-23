@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.kaltinril.android.item2.flashcards.BasicFlashcard;
 import com.kaltinril.android.item2.flashcards.MemoryFlashCard;
+import com.kaltinril.android.item2.glossary.ThaiEnglishGlossary;
 
 import java.util.Calendar;
 
@@ -68,6 +69,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void fc2Click(View view){
         Intent intent = new Intent(this, MemoryFlashCard.class);
+        startActivity(intent);
+    }
+
+    public void gloss1Click(View view){
+        Intent intent = new Intent(this, ThaiEnglishGlossary.class);
         startActivity(intent);
     }
 }
