@@ -28,50 +28,78 @@
         <TextView
             android:id="@+id/fc1_thai"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:textSize="30dp"
+            android:layout_height="45dp"
             android:gravity="center"
-            android:text="TextView" />
+            android:text="TextView"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/fc1_eng"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:textSize="25dp"
+            android:layout_height="40dp"
+            android:textSize="25sp"
             android:gravity="center"
             android:text="TextView" />
 
         <ImageView
             android:id="@+id/fc1_img"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="290dp"
             android:adjustViewBounds="true"
             android:scaleType="centerInside"
-            app:srcCompat="@drawable/rec17_2" />
+            app:srcCompat="@drawable/rec17_4" />
 
-        <LinearLayout
+        <Switch
+            android:id="@+id/switch1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="bottom">
+            android:checked="false"
+            android:gravity="right"
+            android:onClick="fc1SwitchCLick"
+            android:text="Stay Flipped (Show Always) " />
 
-            <Button
-                android:id="@+id/fc1_flip"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Flip"
-                android:onClick="fc1FlipClick"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-            <Button
-                android:id="@+id/fc1_next"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Next"
-                android:onClick="fc1NextClick"/>
-        </LinearLayout>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/fc1_flip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="fc1FlipClick"
+                    android:text="Flip" />
+
+                <Button
+                    android:id="@+id/fc1_next"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="fc1NextClick"
+                    android:text="Next" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Main Menu"
+                    android:onClick="overviewClick"/>
+            </TableRow>
+
+        </TableLayout>
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

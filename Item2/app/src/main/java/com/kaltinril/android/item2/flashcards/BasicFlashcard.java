@@ -1,10 +1,13 @@
 package com.kaltinril.android.item2.flashcards;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Switch;
 import android.widget.TextView;
 
 import com.kaltinril.android.item2.MainActivity;
@@ -20,6 +23,7 @@ public class BasicFlashcard extends AppCompatActivity {
     int currentCard = 0;
     int maxCards = 0;
     boolean flipped = false;
+    boolean stayFlipped = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +50,8 @@ public class BasicFlashcard extends AppCompatActivity {
     private void setupCard(){
         // Disable the image so it is not visible
         ImageView img = (ImageView)findViewById(R.id.fc1_img);
-        img.setVisibility(View.INVISIBLE);
+        if (!stayFlipped)
+            img.setVisibility(View.INVISIBLE);
 
         // update the image to the appropriate one for this card
         int image_identifier = getResources().getIdentifier(image_names[currentCard], "drawable", getPackageName());
@@ -54,7 +59,8 @@ public class BasicFlashcard extends AppCompatActivity {
 
         // Disable the english text so it is invisible
         TextView textview = (TextView)findViewById(R.id.fc1_eng);
-        textview.setVisibility(View.INVISIBLE);
+        if (!stayFlipped)
+            textview.setVisibility(View.INVISIBLE);
 
         // Change the english text
         textview.setText(english_words[currentCard]);
@@ -64,29 +70,37 @@ public class BasicFlashcard extends AppCompatActivity {
         thaiText.setText(thai_words[currentCard]);
 
         // On first display of the card, it is "not" flipped
-        flipped = false;
+        if (!stayFlipped)
+            flipped = false;
     }
 
     private void flipCard(){
-        if (flipped){
-            // It was flipped, hide the other parts now
-            ImageView img = (ImageView)findViewById(R.id.fc1_img);
-            TextView textview = (TextView)findViewById(R.id.fc1_eng);
-
-            img.setVisibility(View.INVISIBLE);
-            textview.setVisibility(View.INVISIBLE);
-        }
-        else{
-            // english and image are not visibvle, display them
-            ImageView img = (ImageView)findViewById(R.id.fc1_img);
-            TextView textview = (TextView)findViewById(R.id.fc1_eng);
-
-            img.setVisibility(View.VISIBLE);
-            textview.setVisibility(View.VISIBLE);
-        }
+        if (flipped)
+            hideFlipped();
+        else
+            showFlipped();
 
         // Flip the flipped flipping flip variable
-        flipped=!flipped;
+        if (!stayFlipped)
+            flipped=!flipped;
+    }
+
+    private void showFlipped(){
+        // english and image are not visibvle, display them
+        ImageView img = (ImageView)findViewById(R.id.fc1_img);
+        TextView textview = (TextView)findViewById(R.id.fc1_eng);
+
+        img.setVisibility(View.VISIBLE);
+        textview.setVisibility(View.VISIBLE);
+    }
+
+    private void hideFlipped(){
+        // It was flipped, hide the other parts now
+        ImageView img = (ImageView)findViewById(R.id.fc1_img);
+        TextView textview = (TextView)findViewById(R.id.fc1_eng);
+
+        img.setVisibility(View.INVISIBLE);
+        textview.setVisibility(View.INVISIBLE);
     }
 
     private void nextCard(){
@@ -99,10 +113,41 @@ public class BasicFlashcard extends AppCompatActivity {
     }
 
     public void fc1FlipClick(View view){
+        if (stayFlipped)
+            flipped = true;
+
         flipCard();
     }
 
     public void fc1NextClick(View view){
+        if (stayFlipped)
+            flipped = true;
+
         nextCard();
+    }
+
+    public void fc1SwitchCLick(View view){
+        Switch sw = (Switch)view;
+        stayFlipped = sw.isChecked();
+
+        // Disable or Enable the flip button
+        Button btn = (Button)findViewById(R.id.fc1_flip);
+        btn.setEnabled(!stayFlipped);
+
+        if (stayFlipped) {
+            flipped = true;
+            showFlipped();
+        }
+        else {
+            flipped = false;
+            hideFlipped();
+        }
+    }
+
+    public void overviewClick(View view){
+        Intent i = new Intent(this, MainActivity.class);
+        // set the new task and clear flags
+        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(i);
     }
 }
