@@ -73,6 +73,18 @@
         <item>nurse</item>
     </string-array>
 
+    <string-array name="topic2_examples_array_english_one_word">
+        <item>happiness</item>
+        <item>photograph</item>
+        <item>baht</item>
+        <item>greetings</item>
+        <item>finished</item>
+        <item>maybe</item>
+        <item>jealous</item>
+        <item>food</item>
+        <item>nurse</item>
+    </string-array>
+
     <string-array name="topic2_examples_array_ref">
         <item>Rec17-2</item>
         <item>Rec17-3</item>
@@ -126,4 +138,7 @@
         <item>y, n, l||ณ||น (low)||น (live)</item>
         <item>y, n, l||ฬ||ล (low)||น (live)</item>
     </string-array>
+
+    <string name="memory_index"></string>
+    <string name="memory_text"></string>
 </resources>

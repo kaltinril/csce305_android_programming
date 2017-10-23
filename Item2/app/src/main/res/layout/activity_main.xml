@@ -83,7 +83,8 @@
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:scaleType="centerInside"
-                    android:src="@drawable/flashcards2" />
+                    android:src="@drawable/flashcards2"
+                    android:onClick="fc2Click"/>
             </TableRow>
 
             <TableRow
