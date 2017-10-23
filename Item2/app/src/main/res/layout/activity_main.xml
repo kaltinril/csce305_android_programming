@@ -125,7 +125,8 @@
                     android:layout_height="100dp"
                     android:adjustViewBounds="true"
                     android:scaleType="centerInside"
-                    android:src="@drawable/image_glossary" />
+                    android:src="@drawable/image_glossary"
+                    android:onClick="gloss2Click"/>
             </TableRow>
 
             <TableRow

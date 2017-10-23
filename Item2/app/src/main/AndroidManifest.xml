@@ -46,7 +46,8 @@
         <activity android:name=".Unit17Overview" />
         <activity android:name=".flashcards.BasicFlashcard" />
         <activity android:name=".flashcards.MemoryFlashCard" />
-        <activity android:name=".glossary.ThaiEnglishGlossary"></activity>
+        <activity android:name=".glossary.ThaiEnglishGlossary" />
+        <activity android:name=".glossary.EnglishThaiGlossary"></activity>
     </application>
 
 </manifest>
