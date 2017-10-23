@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.kaltinril.android.item2.flashcards.BasicFlashcard;
+
 import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
@@ -55,6 +57,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void unit17Click(View view){
         Intent intent = new Intent(this, Unit17Overview.class);
+        startActivity(intent);
+    }
+
+    public void fc1Click(View view){
+        Intent intent = new Intent(this, BasicFlashcard.class);
         startActivity(intent);
     }
 }

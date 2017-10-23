@@ -73,7 +73,8 @@
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:scaleType="centerInside"
-                    android:src="@drawable/flashcards" />
+                    android:src="@drawable/flashcards"
+                    android:onClick="fc1Click"/>
 
                 <ImageButton
                     android:id="@+id/imageButton2"

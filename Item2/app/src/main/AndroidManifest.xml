@@ -43,7 +43,8 @@
         <activity
             android:name=".Topic4Chart"
             android:label="@string/topic4_chart_title" />
-        <activity android:name=".Unit17Overview"></activity>
+        <activity android:name=".Unit17Overview" />
+        <activity android:name=".flashcards.BasicFlashcard"></activity>
     </application>
 
 </manifest>
